@@ -38,6 +38,7 @@ export class Home extends React.Component {
 		return (
 			<div id="container" className="text-center mt-5">
 				<h1>tic-tac-toe</h1>
+
 				<div className="game-row">
 					<div className="cell" onClick={() => this.jugar("cell1")}>
 						{this.state.cell1}
